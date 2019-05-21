@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="175.5dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/icone_do_exercicio01" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:text="Olá"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="600dp" />
+
+        <TextView
+            android:id="@+id/textViewNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome:"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="600dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewSobrenome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobrenome:"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="600dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewIdade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idade:"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="600dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
